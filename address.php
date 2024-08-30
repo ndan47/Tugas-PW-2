@@ -1,7 +1,9 @@
 <?php
-require_once "koneksi.php";
+require_once "koneksi.php"; //menghubungkan file address.php ke file koneksi.php
 
+//instansi objek dari class Address  
 $address = new Address();
+// memanggil metode tampilData() untuk mendapatkan data alamat
 $data_student = $address->tampilData();
 ?>
 <!DOCTYPE html>

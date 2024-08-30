@@ -1,9 +1,12 @@
 <?php
-require_once "koneksi.php";
+require_once "koneksi.php"; //menghubungkan file student.php ke file koneksi.php
 
+//instansi objek dari class Student     
 $student1 = new Student();
+// memanggil metode tampilData() untuk mendapatkan data mahasiswa
 $data_student = $student1->tampilData();
 
+// proses pengulangan setiap baris data mahasiswa
 foreach ($data_student as $data){
 
 }

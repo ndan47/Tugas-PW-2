@@ -1,8 +1,9 @@
 <?php
-require_once "koneksi.php";
+require_once "koneksi.php"; //menghubungkan file id_guidance.php ke file koneksi.php
 
-
+//instansi objek dari class IDguidance  
 $idguidance = new IDguidance();
+// memanggil metode tampilData() untuk mendapatkan data id_guidance
 $data_guidance = $idguidance->tampilData();
 ?>
 <!DOCTYPE html>

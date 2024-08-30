@@ -1,11 +1,13 @@
 <?php
-require_once "koneksi.php";
+require_once "koneksi.php"; //menghubungkan file guidance.php ke file koneksi.php
 
-
+//instansi objek class Guidance   
 $guidance = new Guidance();
+// memanggil metode tampilData() untuk mendapatkan data guidance
 $data_guidance = $guidance->tampilData();
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +18,7 @@ $data_guidance = $guidance->tampilData();
 </head>
 <body>
 <?php require_once "navv.php";?>
-       <h2>Data Guidance</h2>
+    <h2>Data Guidance</h2>
     <table class="table table-striped table-hover">
         <tr>
             <th>No</th>
@@ -31,7 +33,6 @@ $data_guidance = $guidance->tampilData();
         </tr>
         <?php endforeach ?>
     </table>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
