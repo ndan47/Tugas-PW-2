@@ -1,9 +1,6 @@
 # Tugas-2 Praktikum WEB 2
-
-ERD dari tugas-2 yaitu student dan guidance
-
+Tugas ini untuk memenuhi tugas 2 praktikum WEB 2 
 ## Tugas
-
 1. Membuat view berbasis OOP PHP, dengan mengambil data dari MySQL database "tugas-2" terdapat tabel student dan tabel guidance
 2. Menggunakan method __counstruct sebagai link untuk mengkoneksi ke database
 ```php
